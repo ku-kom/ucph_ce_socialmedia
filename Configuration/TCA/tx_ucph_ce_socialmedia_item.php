@@ -10,7 +10,7 @@
 
 return [
     'ctrl' => [
-        'label' => 'header',
+        'label' => '',
         'label_alt' => '',
         'sortby' => 'sorting',
         'tstamp' => 'tstamp',
@@ -42,7 +42,6 @@ return [
         '1' => [
             'showitem' => '
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
-                header;LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_header,
                 socialmedia_name,
                 socialmedia_link,
                 --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access,
@@ -158,18 +157,9 @@ return [
                 'type' => 'passthrough'
             ]
         ],
-        'header' => [
-            'exclude' => true,
-            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_header',
-            'config' => [
-                'type' => 'input',
-                'size' => 50,
-                'eval' => 'trim,required'
-            ],
-        ],
         'socialmedia_name' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_header',
+            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_select',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
@@ -179,11 +169,13 @@ return [
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_instagram', 'instagram', 'EXT:'.$extKey.'/Resources/Public/Icons/instagram.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_twitter', 'twitter', 'EXT:'.$extKey.'/Resources/Public/Icons/twitter.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_youtube', 'youtube', 'EXT:'.$extKey.'/Resources/Public/Icons/youtube.svg'],
-                ]
+                ],
+                'eval' => 'required',
             ],
             'default' => '',
         ],
         'socialmedia_link' => [
+            'exclude' => true,
             'label' => 'Link',
             'description' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_link',
             'config' => [
@@ -192,6 +184,7 @@ return [
                 // Replace with the following in v.12:
                 //'type' => 'link',
                 //'allowedTypes' => ['page', 'url', 'record'],
+                'eval' => 'required'
             ],
         ],
     ],

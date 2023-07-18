@@ -64,6 +64,7 @@ call_user_func(function ($extKey ='ucph_ce_socialmedia', $contentType ='ucph_ce_
             'tx_ucph_ce_socialmedia_item' => [
                 'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_items',
                 'config' => [
+                    'minitems' => 1,
                     'type' => 'inline',
                     'foreign_table' => 'tx_ucph_ce_socialmedia_item',
                     'foreign_field' => 'tt_content',
