@@ -1,0 +1,13 @@
+mod.wizards.newContentElement.wizardItems.special {
+    elements {
+        ucph_ce_socialmedia {
+            iconIdentifier = ucph-ce-socialmedia-icon
+            title = LLL:EXT:ucph_ce_socialmedia/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_title
+            description = LLL:EXT:ucph_ce_socialmedia/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_desc
+            tt_content_defValues {
+                CType = ucph_ce_socialmedia
+            }
+        }
+    }
+    show := addToList(ucph_ce_socialmedia)
+}

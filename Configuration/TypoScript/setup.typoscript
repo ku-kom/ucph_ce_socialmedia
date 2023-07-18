@@ -1,0 +1,16 @@
+tt_content.ucph_ce_socialmedia >
+# CTYPE: Social media
+
+tt_content.ucph_ce_socialmedia =< lib.contentElement
+tt_content.ucph_ce_socialmedia {
+	templateName = Social
+	templateRootPaths {
+        101 = EXT:ucph_ce_socialmedia/Resources/Private/Templates/
+    }
+    partialRootPaths {
+        101 = EXT:ucph_ce_socialmedia/Resources/Private/Partials/
+    }
+    layoutRootPaths {
+        101 = EXT:ucph_ce_socialmedia/Resources/Private/Layouts/
+    }
+}
