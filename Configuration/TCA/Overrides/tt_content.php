@@ -65,7 +65,7 @@ call_user_func(function ($extKey ='ucph_ce_socialmedia', $contentType ='ucph_ce_
                 'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_items',
                 'config' => [
                     'type' => 'inline',
-                    'foreign_table' => 'tx_ucph_ce_tab_item',
+                    'foreign_table' => 'tx_ucph_ce_socialmedia_item',
                     'foreign_field' => 'tt_content',
                     'appearance' => [
                         'newRecordLinkTitle' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_item',
