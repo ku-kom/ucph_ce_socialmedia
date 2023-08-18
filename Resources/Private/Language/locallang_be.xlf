@@ -33,8 +33,8 @@
         <trans-unit id="ucph_ce_socialmedia_instagram">
             <source>Instagram</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_twitter">
-            <source>Twitter</source>
+        <trans-unit id="ucph_ce_socialmedia_x">
+            <source>X (formerly known as Twitter)</source>
         </trans-unit>
         <trans-unit id="ucph_ce_socialmedia_youtube">
             <source>Youtube</source>

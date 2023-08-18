@@ -10,7 +10,7 @@
 
 return [
     'ctrl' => [
-        'label' => '',
+        'label' => 'socialmedia_name',
         'label_alt' => '',
         'sortby' => 'sorting',
         'tstamp' => 'tstamp',
@@ -167,7 +167,7 @@ return [
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_select', '', ''],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_facebook', 'facebook', 'EXT:'.$extKey.'/Resources/Public/Icons/facebook.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_instagram', 'instagram', 'EXT:'.$extKey.'/Resources/Public/Icons/instagram.svg'],
-                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_twitter', 'twitter', 'EXT:'.$extKey.'/Resources/Public/Icons/twitter.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_x', 'x-lg', 'EXT:'.$extKey.'/Resources/Public/Icons/x-lg.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_youtube', 'youtube', 'EXT:'.$extKey.'/Resources/Public/Icons/youtube.svg'],
                 ],
                 'eval' => 'required',
