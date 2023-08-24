@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" datatype="plaintext" original="EXT:ucph_ce_socialmedia/Resources/Private/Language/locallang_be.xlf" date="2023-06-21T10:27:00Z" product-name="ucph_ce_socialmedia">
+    <file source-language="en" datatype="plaintext" original="EXT:ucph_content_socialmedia/Resources/Private/Language/locallang_be.xlf" date="2023-06-21T10:27:00Z" product-name="ucph_content_socialmedia">
         <header>
             <authorName>Nanna Ellegaard</authorName>
             <authorEmail>nel@adm.ku.dk</authorEmail>
         </header>
         <body>
-        <trans-unit id="ucph_ce_socialmedia_title">
+        <trans-unit id="ucph_content_socialmedia_title">
             <source>Social media element</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_desc">
+        <trans-unit id="ucph_content_socialmedia_desc">
             <source>Add icons and link to a variaty of social media</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_header">
+        <trans-unit id="ucph_content_socialmedia_header">
             <source>Internal header - not visible in the frontend</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_add_items">
+        <trans-unit id="ucph_content_socialmedia_add_items">
             <source>Add social media icons</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_add_item">
+        <trans-unit id="ucph_content_socialmedia_add_item">
             <source>Add social media icon</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_add_link">
+        <trans-unit id="ucph_content_socialmedia_add_link">
             <source>Add social media link</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_select">
+        <trans-unit id="ucph_content_socialmedia_select">
             <source>Select social media</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_facebook">
+        <trans-unit id="ucph_content_socialmedia_facebook">
             <source>Facebook</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_instagram">
+        <trans-unit id="ucph_content_socialmedia_instagram">
             <source>Instagram</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_x">
+        <trans-unit id="ucph_content_socialmedia_x">
             <source>X (formerly known as Twitter)</source>
         </trans-unit>
-        <trans-unit id="ucph_ce_socialmedia_youtube">
+        <trans-unit id="ucph_content_socialmedia_youtube">
             <source>Youtube</source>
         </trans-unit>
         </body>

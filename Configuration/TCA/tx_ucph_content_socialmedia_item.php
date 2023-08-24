@@ -6,7 +6,7 @@
  * LICENSE file that was distributed with this source code.
  */
 
- $extKey = 'ucph_ce_socialmedia';
+ $extKey = 'ucph_content_socialmedia';
 
 return [
     'ctrl' => [
@@ -16,7 +16,7 @@ return [
         'tstamp' => 'tstamp',
         'crdate' => 'crdate',
         'cruser_id' => 'cruser_id',
-        'title' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_items',
+        'title' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_add_items',
         'delete' => 'deleted',
         'versioningWS' => true,
         'origUid' => 't3_origuid',
@@ -68,7 +68,7 @@ return [
         ],
         'visibility' => [
             'showitem' => '
-                hidden;LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_item
+                hidden;LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_add_item
             '
         ],
         // hidden but needs to be included all the time, so sys_language_uid is set correctly
@@ -80,12 +80,12 @@ return [
     'columns' => [
         'tt_content' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_items',
+            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_add_items',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'foreign_table' => 'tt_content',
-                'foreign_table_where' => 'AND tt_content.pid=###CURRENT_PID### AND tt_content.{#CType}=\'ucph_ce_socialmedia\'',
+                'foreign_table_where' => 'AND tt_content.pid=###CURRENT_PID### AND tt_content.{#CType}=\'ucph_content_socialmedia\'',
                 'maxitems' => 1,
                 'default' => 0,
             ],
@@ -147,8 +147,8 @@ return [
                         0
                     ]
                 ],
-                'foreign_table' => 'tx_ucph_ce_socialmedia_item',
-                'foreign_table_where' => 'AND tx_ucph_ce_socialmedia_item.pid=###CURRENT_PID### AND tx_ucph_ce_socialmedia_item.sys_language_uid IN (-1,0)',
+                'foreign_table' => 'tx_ucph_content_socialmedia_item',
+                'foreign_table_where' => 'AND tx_ucph_content_socialmedia_item.pid=###CURRENT_PID### AND tx_ucph_content_socialmedia_item.sys_language_uid IN (-1,0)',
                 'default' => 0
             ]
         ],
@@ -159,16 +159,16 @@ return [
         ],
         'socialmedia_name' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_select',
+            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_select',
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'items' => [
-                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_select', '', ''],
-                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_facebook', 'facebook', 'EXT:'.$extKey.'/Resources/Public/Icons/facebook.svg'],
-                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_instagram', 'instagram', 'EXT:'.$extKey.'/Resources/Public/Icons/instagram.svg'],
-                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_x', 'x-lg', 'EXT:'.$extKey.'/Resources/Public/Icons/x-lg.svg'],
-                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_youtube', 'youtube', 'EXT:'.$extKey.'/Resources/Public/Icons/youtube.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_select', '', ''],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_facebook', 'facebook', 'EXT:'.$extKey.'/Resources/Public/Icons/facebook.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_instagram', 'instagram', 'EXT:'.$extKey.'/Resources/Public/Icons/instagram.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_x', 'x-lg', 'EXT:'.$extKey.'/Resources/Public/Icons/x-lg.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_youtube', 'youtube', 'EXT:'.$extKey.'/Resources/Public/Icons/youtube.svg'],
                 ],
                 'eval' => 'required',
             ],
@@ -177,7 +177,7 @@ return [
         'socialmedia_link' => [
             'exclude' => true,
             'label' => 'Link',
-            'description' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_link',
+            'description' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_add_link',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',

@@ -1,24 +1,24 @@
-tt_content.ucph_ce_socialmedia >
+tt_content.ucph_content_socialmedia >
 # CTYPE: Social media
 
-tt_content.ucph_ce_socialmedia =< lib.contentElement
-tt_content.ucph_ce_socialmedia {
+tt_content.ucph_content_socialmedia =< lib.contentElement
+tt_content.ucph_content_socialmedia {
 	templateName = Social
 	templateRootPaths {
-        106 = EXT:ucph_ce_socialmedia/Resources/Private/Templates/
+        106 = EXT:ucph_content_socialmedia/Resources/Private/Templates/
     }
     partialRootPaths {
-        106 = EXT:ucph_ce_socialmedia/Resources/Private/Partials/
+        106 = EXT:ucph_content_socialmedia/Resources/Private/Partials/
     }
     layoutRootPaths {
-        106 = EXT:ucph_ce_socialmedia/Resources/Private/Layouts/
+        106 = EXT:ucph_content_socialmedia/Resources/Private/Layouts/
     }
 
     dataProcessing {
         10 = TYPO3\CMS\Frontend\DataProcessing\FlexFormProcessor
         20 = TYPO3\CMS\Frontend\DataProcessing\DatabaseQueryProcessor
         20 {
-            table = tx_ucph_ce_socialmedia_item
+            table = tx_ucph_content_socialmedia_item
             pidInList.field = pid
             where {
                 data = field:uid

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Extension Manager/Repository config file for ext "ucph_ce_socialmedia".
+ * Extension Manager/Repository config file for ext "ucph_content_socialmedia".
  */
 $EM_CONF[$_EXTKEY] = [
     'title' => 'UCPH TYPO3 content element "Social media"',
@@ -15,7 +15,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'UniversityOfCopenhagen\\UcphCeSocialMedia\\' => 'Classes',
+            'UniversityOfCopenhagen\\UcphContentSocialMedia\\' => 'Classes',
         ],
     ],
     'state' => 'stable',

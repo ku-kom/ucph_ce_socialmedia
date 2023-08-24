@@ -10,6 +10,6 @@ return [
     // icon identifier
     'ucph-ce-socialmedia-icon' => [
         'provider' => \TYPO3\CMS\Core\Imaging\IconProvider\SvgIconProvider::class,
-        'source' => 'EXT:ucph_ce_socialmedia/Resources/Public/Icons/share-fill.svg',
+        'source' => 'EXT:ucph_content_socialmedia/Resources/Public/Icons/share-fill.svg',
     ],
 ];

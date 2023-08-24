@@ -1,5 +1,5 @@
 {
-    "name": "university-of-copenhagen/ucph-ce-socialmedia",
+    "name": "university-of-copenhagen/ucph-content-socialmedia",
     "type": "typo3-cms-extension",
     "description": "UCPH TYPO3 content element \"Social media\"",
     "authors": [{
@@ -13,12 +13,12 @@
     },
     "autoload": {
         "psr-4": {
-            "UniversityOfCopenhagen\\UcphCeSocialMedia\\": "Classes/"
+            "UniversityOfCopenhagen\\UcphContentSocialMedia\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "ucph_ce_socialmedia"
+            "extension-key": "ucph_content_socialmedia"
         }
     }
 }

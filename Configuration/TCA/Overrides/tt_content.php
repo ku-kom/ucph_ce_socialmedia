@@ -9,7 +9,7 @@
 
 defined('TYPO3') or die();
 
-call_user_func(function ($extKey ='ucph_ce_socialmedia', $contentType ='ucph_ce_socialmedia') {
+call_user_func(function ($extKey ='ucph_content_socialmedia', $contentType ='ucph_content_socialmedia') {
     // Add Content Element
     if (!is_array($GLOBALS['TCA']['tt_content']['types'][$contentType] ?? false)) {
         $GLOBALS['TCA']['tt_content']['types'][$contentType] = [];
@@ -20,7 +20,7 @@ call_user_func(function ($extKey ='ucph_ce_socialmedia', $contentType ='ucph_ce_
         'tt_content',
         'CType',
         [
-            'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_title',
+            'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_title',
             $contentType,
             'ucph-ce-socialmedia-icon'
         ],
@@ -39,7 +39,7 @@ call_user_func(function ($extKey ='ucph_ce_socialmedia', $contentType ='ucph_ce_
                 --div--;LLL:EXT:core/Resources/Private/Language/Form/locallang_tabs.xlf:general,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.headers;headers,
-                    tx_ucph_ce_socialmedia_item,
+                    tx_ucph_content_socialmedia_item,
                 --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.appearance,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames;frames,
                     --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.appearanceLinks;appearanceLinks,
@@ -61,15 +61,15 @@ call_user_func(function ($extKey ='ucph_ce_socialmedia', $contentType ='ucph_ce_
     $GLOBALS['TCA']['tt_content']['columns'] = array_replace_recursive(
         $GLOBALS['TCA']['tt_content']['columns'],
         [
-            'tx_ucph_ce_socialmedia_item' => [
-                'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_items',
+            'tx_ucph_content_socialmedia_item' => [
+                'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_add_items',
                 'config' => [
                     'minitems' => 1,
                     'type' => 'inline',
-                    'foreign_table' => 'tx_ucph_ce_socialmedia_item',
+                    'foreign_table' => 'tx_ucph_content_socialmedia_item',
                     'foreign_field' => 'tt_content',
                     'appearance' => [
-                        'newRecordLinkTitle' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_ce_socialmedia_add_item',
+                        'newRecordLinkTitle' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_add_item',
                         'useSortable' => true,
                         'showSynchronizationLink' => true,
                         'showAllLocalizationLink' => true,
