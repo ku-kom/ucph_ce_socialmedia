@@ -21,8 +21,8 @@
         <trans-unit id="ucph_content_socialmedia_add_item">
             <source>Add social media icon</source>
         </trans-unit>
-        <trans-unit id="ucph_content_socialmedia_add_link">
-            <source>Add social media link</source>
+        <trans-unit id="ucph_content_socialmedia_link">
+            <source>Link to the social media account</source>
         </trans-unit>
         <trans-unit id="ucph_content_socialmedia_select">
             <source>Select social media</source>

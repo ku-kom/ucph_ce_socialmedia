@@ -176,8 +176,7 @@ return [
         ],
         'socialmedia_link' => [
             'exclude' => true,
-            'label' => 'Link',
-            'description' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_add_link',
+            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_link',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',
