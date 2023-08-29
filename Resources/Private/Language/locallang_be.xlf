@@ -12,16 +12,13 @@
         <trans-unit id="ucph_content_socialmedia_desc">
             <source>Add icons and link to a variaty of social media</source>
         </trans-unit>
-        <trans-unit id="ucph_content_socialmedia_header">
-            <source>Internal header - not visible in the frontend</source>
-        </trans-unit>
         <trans-unit id="ucph_content_socialmedia_add_items">
             <source>Add social media icons</source>
         </trans-unit>
         <trans-unit id="ucph_content_socialmedia_add_item">
             <source>Add social media icon</source>
         </trans-unit>
-        <trans-unit id="ucph_content_socialmedia_link">
+        <trans-unit id="ucph_content_tx_ucph_content_socialmedia_link">
             <source>Link to the social media account</source>
         </trans-unit>
         <trans-unit id="ucph_content_socialmedia_select">
@@ -38,6 +35,15 @@
         </trans-unit>
         <trans-unit id="ucph_content_socialmedia_youtube">
             <source>Youtube</source>
+        </trans-unit>
+        <trans-unit id="ucph_content_socialmedia_vimeo">
+            <source>Vimeo</source>
+        </trans-unit>
+        <trans-unit id="ucph_content_socialmedia_rss">
+            <source>RSS</source>
+        </trans-unit>
+        <trans-unit id="ucph_content_socialmedia_ucph_video">
+            <source>UCPH Video portal</source>
         </trans-unit>
         </body>
     </file>

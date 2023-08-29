@@ -13,6 +13,6 @@ CREATE TABLE tt_content (
 --
 CREATE TABLE tx_ucph_content_socialmedia_item (
     tt_content int(11) unsigned DEFAULT '0',
-    socialmedia_name varchar(255) DEFAULT '' NOT NULL,
-    socialmedia_link varchar(1024) DEFAULT '' NOT NULL,
+    tx_ucph_content_socialmedia_name varchar(255) DEFAULT '' NOT NULL,
+    tx_ucph_content_socialmedia_link varchar(1024) DEFAULT '' NOT NULL,
 );

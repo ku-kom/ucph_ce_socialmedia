@@ -10,7 +10,7 @@
 
 return [
     'ctrl' => [
-        'label' => 'socialmedia_name',
+        'label' => 'tx_ucph_content_socialmedia_name',
         'label_alt' => '',
         'sortby' => 'sorting',
         'tstamp' => 'tstamp',
@@ -42,8 +42,8 @@ return [
         '1' => [
             'showitem' => '
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.general;general,
-                socialmedia_name,
-                socialmedia_link,
+                tx_ucph_content_socialmedia_name,
+                tx_ucph_content_socialmedia_link,
                 --div--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:tabs.access,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.visibility;visibility,
                 --palette--;LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.access;access,
@@ -157,7 +157,7 @@ return [
                 'type' => 'passthrough'
             ]
         ],
-        'socialmedia_name' => [
+        'tx_ucph_content_socialmedia_name' => [
             'exclude' => true,
             'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_select',
             'config' => [
@@ -169,14 +169,17 @@ return [
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_instagram', 'instagram', 'EXT:'.$extKey.'/Resources/Public/Icons/instagram.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_x', 'x-lg', 'EXT:'.$extKey.'/Resources/Public/Icons/x-lg.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_youtube', 'youtube', 'EXT:'.$extKey.'/Resources/Public/Icons/youtube.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_vimeo', 'vimeo', 'EXT:'.$extKey.'/Resources/Public/Icons/vimeo.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_rss', 'rss', 'EXT:'.$extKey.'/Resources/Public/Icons/rss.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_ucph_video', 'ucph_video', 'EXT:'.$extKey.'/Resources/Public/Icons/play-fill.svg'],
                 ],
-                'eval' => 'required',
+                'minitems' => 1,
             ],
             'default' => '',
         ],
-        'socialmedia_link' => [
+        'tx_ucph_content_socialmedia_link' => [
             'exclude' => true,
-            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_link',
+            'label' => 'LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_tx_ucph_content_socialmedia_link',
             'config' => [
                 'type' => 'input',
                 'renderType' => 'inputLink',
