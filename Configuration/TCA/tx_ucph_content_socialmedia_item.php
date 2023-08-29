@@ -171,7 +171,7 @@ return [
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_youtube', 'youtube', 'EXT:'.$extKey.'/Resources/Public/Icons/youtube.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_vimeo', 'vimeo', 'EXT:'.$extKey.'/Resources/Public/Icons/vimeo.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_rss', 'rss', 'EXT:'.$extKey.'/Resources/Public/Icons/rss.svg'],
-                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_ucph_video', 'ucph_video', 'EXT:'.$extKey.'/Resources/Public/Icons/play-fill.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_ucph_video', 'play-fill', 'EXT:'.$extKey.'/Resources/Public/Icons/play-fill.svg'],
                 ],
                 'minitems' => 1,
             ],
