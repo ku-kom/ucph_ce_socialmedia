@@ -168,7 +168,7 @@ return [
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_facebook', 'facebook', 'EXT:'.$extKey.'/Resources/Public/Icons/facebook.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_linkedin', 'linkedin', 'EXT:'.$extKey.'/Resources/Public/Icons/linkedin.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_instagram', 'instagram', 'EXT:'.$extKey.'/Resources/Public/Icons/instagram.svg'],
-                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_x', 'x-lg', 'EXT:'.$extKey.'/Resources/Public/Icons/x-lg.svg'],
+                    ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_x', 'twitter-x', 'EXT:'.$extKey.'/Resources/Public/Icons/twitter-x.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_youtube', 'youtube', 'EXT:'.$extKey.'/Resources/Public/Icons/youtube.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_vimeo', 'vimeo', 'EXT:'.$extKey.'/Resources/Public/Icons/vimeo.svg'],
                     ['LLL:EXT:'.$extKey.'/Resources/Private/Language/locallang_be.xlf:ucph_content_socialmedia_rss', 'rss', 'EXT:'.$extKey.'/Resources/Public/Icons/rss.svg'],
